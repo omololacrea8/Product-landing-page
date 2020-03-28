@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu{
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.food-menu-section {
+    width: 600px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.menu-inner-section {
+    width: 500px;
+    position: relative;
+    margin: 0 auto;
+}
+.food-menu-section::after,
+.food-menu-section::before{
+    content: "";
+    clear: both;
+    visibility: hidden;
+    display: block;
+}
+.menu-heading {
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size:20px;
+}
+.menu-sub-heading {
+    text-align: center;
+    color: #808080;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+}
+.menu-heading span {
+    color: #b30000;
+}
+.food-range-section {
+    width: 550px;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.fruits-flavour-section {
+    width: 550px;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    background-color: #f0f0f2;
+    border-bottom: 8px solid #ffffff;
+}
+.fruits-img {
+    float: left;
+    display: inline-block;
+    width:33.3%
+}
+.flavour-heading {
+    color: #004d99;
+    font-size: 16px;
+    margin: 0;
+    display: inline-block;
+    margin-left: 20px;
+    text-align: left;
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+}
+.mash {
+    color: #808080;
+    font-size: 12px;
+    display: flex;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    margin-right: 5px;
+}
+.price-bar {
+    color: #808080;
+    float: right;
+    display: inline-block;
+    font-size: 12px;
+    margin-top: -10px;
+    font-weight: normal;
+    margin-right: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+.price-bar span {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.sub-price-bar {
+    float: right;
+    display: inline-block;
+    margin-top: -10px;
+    margin-right: -80px;
+}
+.sub-price-bar span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'PT Serif', serif;
+    font-weight: normal;
+    margin-right: -6px;
+}
+marquee{
+    font-size: 50px;
+    color: blue;
+    font-weight: bold;
+}
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+       .menu{
+           font-size: 80px;
+       }
+       .food{
+           text-align: center;
+           justify-content: center;
+
+       }
+    }
+}
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (max-width: 1440px) {
+        .menu{
+            font-size: 30px;
+    }
+        .food{
+            text-align: center;
+            justify-content: center;
+        
+    }
+  }
+  @media only screen and (max-width: 450px){
+    .menu h3{
+        text-align: center;
+        align-content: center;
+        align-content: center;
+    }
+  }
+        
+   
+  
+
+  
+   
+  
+  
